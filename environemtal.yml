@@ -1,0 +1,23 @@
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python=3.8.18
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - pytorch=2.3.0
+  - pytorch-cuda=11.8 # PyTorch CUDA support, version 11.8 (adjust as per GPU driver compatibility)
+  - flaml=1.1.8
+  - optuna=3.6.1
+  - scipy
+  - pip
+  - pip:
+      - joblib
+      - json5
+
+name: partmc
