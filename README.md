@@ -61,9 +61,9 @@ conda activate partmc
   
 | Folder                                                       | Comments                                                     | How to get it?                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|PartMC_train.csv  | PartMC simulation training data for pre-trained foundation model | Raw Partmc Data and Pre_train_Foundation_model.ipynb  | 
-|PartMC_valid.csv  | PartMC simulation validation data for pre-trained foundation model | Raw Partmc Data and Pre_train_Foundation_model.ipynb  | 
-|PartMC_test.csv  | PartMC simulation testing data for pre-trained foundation model | Raw Partmc Data and Pre_train_Foundation_model.ipynb  | 
+|PartMC_train.csv  | PartMC simulation training data for pre-trained foundation model | Raw Partmc Data and [Pre_train_Foundation_model.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/2_Pre_train_Foundation_model/Pre_train_Foundation_model.ipynb)  | 
+|PartMC_valid.csv  | PartMC simulation validation data for pre-trained foundation model | Raw Partmc Data and [Pre_train_Foundation_model.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/2_Pre_train_Foundation_model/Pre_train_Foundation_model.ipynb)  | 
+|PartMC_test.csv  | PartMC simulation testing data for pre-trained foundation model | Raw Partmc Data and [Pre_train_Foundation_model.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/2_Pre_train_Foundation_model/Pre_train_Foundation_model.ipynb)  | 
 
 
 - MEGAPOLI data: MEGAPOLI observational data will be made available on request.
@@ -72,28 +72,28 @@ conda activate partmc
 
 | Folder                                                       | Comments                                                     | How to get it?                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|Fine_tuning_XX%Data.csv  | Chi estimation results from fine-tuned foundation model, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | Fine-tune_different_data_size.ipynb  | 
-|AutoML_XX%Data.csv  | Chi estimation results from AutoML, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | AutoML.ipynb  | 
-|LR_XX%Data.csv  | Chi estimation results from Linear regression, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | LR.ipynb  | 
+|Fine_tuning_XX%Data.csv  | Chi estimation results from fine-tuned foundation model, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | [Fine-tune_different_data_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/3_Fine_tune_different%20_data_size/Fine-tune_different_data_size.ipynb)  | 
+|AutoML_XX%Data.csv  | Chi estimation results from AutoML, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | [AutoML.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/3_Fine_tune_different%20_data_size/AutoML.ipynb)  | 
+|LR_XX%Data.csv  | Chi estimation results from Linear regression, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | [LR.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/3_Fine_tune_different%20_data_size/LR.ipynb)  | 
 
 - Fine_tuned_Results_different_input_feature
 
 | Folder                                                       | Comments                                                     | How to get it?                                               |
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|Fine_tuning_DropAero_Data.csv  | Input feature drop aerosol subset | Fine-tune_different_input_size.ipynb  | 
-|Fine_tuning_DropAllGas_Data.csv  | Input feature drop Non-VOC and VOC gases subset | Fine-tune_different_input_size.ipynb  | 
-|Fine_tuning_DropEnv_Data.csv  | Input feature drop environment subset | Fine-tune_different_input_size.ipynb  | 
-|Fine_tuning_DropNonVOC_Data.csv  | Input feature drop Non-VOC gases subset | Fine-tune_different_input_size.ipynb  | 
-|Fine_tuning_DropVOC_Data.csv  | Input feature drop VOC gases subset | Fine-tune_different_input_size.ipynb  | 
-|Fine_tuning_onlyAero_Data.csv  | Input feature only consider aerosol subset | Fine-tune_different_input_size.ipynb  | 
+|Fine_tuning_DropAero_Data.csv  | Input feature drop aerosol subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|Fine_tuning_DropAllGas_Data.csv  | Input feature drop Non-VOC and VOC gases subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|Fine_tuning_DropEnv_Data.csv  | Input feature drop environment subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|Fine_tuning_DropNonVOC_Data.csv  | Input feature drop Non-VOC gases subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|Fine_tuning_DropVOC_Data.csv  | Input feature drop VOC gases subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|Fine_tuning_onlyAero_Data.csv  | Input feature only consider aerosol subset | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
 
 
 ### Model
 | Folder                                                       | Comments                                                     | How to get it?                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|best_resnet_model_finetuned_XX%.pth  | Fine-tuned foundation model, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | Fine-tune_different_data_size.ipynb  | 
-|best_resnet_model_finetuned_50%_XX_xxxx.csv  | Fine-tuned foundation model, here XX means input feature size and xxxx means input feature subset combination | Fine-tune_different_input_size.ipynb  | 
-|AutoML_XX%Data.csv  | Model trained and selected by AutoML, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | AutoML.ipynb  | 
+|best_resnet_model_finetuned_XX%.pth  | Fine-tuned foundation model, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | [Fine-tune_different_data_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/3_Fine_tune_different%20_data_size/Fine-tune_different_data_size.ipynb)  | 
+|best_resnet_model_finetuned_50%_XX_xxxx.csv  | Fine-tuned foundation model, here XX means input feature size and xxxx means input feature subset combination | [Fine-tune_different_input_size.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/4_Fine_tune_different_input_feature_size/Fine-tune_different_input_size.ipynb)  | 
+|AutoML_XX%Data.csv  | Model trained and selected by AutoML, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | [AutoML.ipynb](https://github.com/envdes/code_MEGAPOLI_Foundation_Model/blob/main/3_Fine_tune_different%20_data_size/AutoML.ipynb)  | 
 
 
 ## Acknowledgments
