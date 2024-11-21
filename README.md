@@ -92,7 +92,7 @@ conda activate partmc
 | Folder                                                       | Comments                                                     | How to get it?                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |best_resnet_model_finetuned_XX%.pth  | Fine-tuned foundation model, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | Fine-tune_different_data_size.ipynb  | 
-|best_resnet_model_finetuned_50%_XX_xxxx.csv  | Fine-tuned foundation model, here XX means input feature size and xxxx means input feature subset combination | AutoML.ipynb  | 
+|best_resnet_model_finetuned_50%_XX_xxxx.csv  | Fine-tuned foundation model, here XX means input feature size and xxxx means input feature subset combination | Fine-tune_different_input_size.ipynb  | 
 |AutoML_XX%Data.csv  | Model trained and selected by AutoML, here XX means training dataset is XX fraction of total MEGAPOLI data (XX *2 fraction of fine-tuning training dataset) | AutoML.ipynb  | 
 
 
