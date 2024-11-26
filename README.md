@@ -1,5 +1,7 @@
 # code_MEGAPOLI_Foundation_Model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14223751.svg)](https://doi.org/10.5281/zenodo.14223751)
+
 - [code\_MEGAPOLI\_Foundation\_Model](#code_megapoli_foundation_model)
   - [Introduction](#introduction)
   - [Scripts and Data](#scripts-and-data)
