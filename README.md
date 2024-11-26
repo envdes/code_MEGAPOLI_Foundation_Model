@@ -47,13 +47,14 @@ conda activate partmc
 
 ### Scripts
 
-| Tasks             | Folders            | Fig or Tab in paper                                          | Fig or Tab in preprint |
-| ------------------------------ | ------------------ | -------------------------------------------- | ---------------------- |
+| Tasks             | Folders            | Fig or Tab in paper                                          | 
+| ------------------------------ | ------------------ | -------------------------------------------- |
+| PartMC data extract |0_PartMC_data_extract   |   |
 | Pre-trained foundation model hyperparameter | 1_Pre_trained_foundation_model_hyperparameter hyperparameter      |                                                              |                        |
-| Pre-trained foundation model development  | 2_Pre_train_Foundation_model      |                                         | Fig S3                  |
+| Pre-trained foundation model development  | 2_Pre_train_Foundation_model      |                                         |
 | Fine-tuned foundation model development (various fine-tuning training data size) | 3_Fine_tune_different_data_size        |                                                              |        Fig 2 &3(a)(b)                |
-| Fine-tuned foundation model development (various input feature size)     | 4_Fine_tune_different_input_feature_size |  | Fig 3(c)          |    
-| Data analysis| 5_Figure_plot| |  Fig 2,3,S1,S2,S3 and S4 |
+| Fine-tuned foundation model development (various input feature size)     | 4_Fine_tune_different_input_feature_size |       
+| Data analysis| 5_Figure_plot| |  
 
 
 ### Data
