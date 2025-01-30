@@ -15,6 +15,8 @@ The processed data is stored in a file named `PartMC_data_100To700nm.csv` for fu
 
 This script is designed for reproducibility and extensibility, enabling seamless integration with other 
 data analysis pipelines for aerosol research.
+
+Author: Fei Jiang, The University of Manchester
 """
 
 

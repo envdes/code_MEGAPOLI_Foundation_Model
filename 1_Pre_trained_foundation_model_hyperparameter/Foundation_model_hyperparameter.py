@@ -6,6 +6,8 @@ training and validation, along with MEGAPOLI data for testing. Hyperparameter
 optimization is performed using Optuna, ensuring an efficient and robust model 
 configuration. The process includes data preprocessing, model definition, 
 training, validation, and evaluation.
+
+Author: Fei Jiang, The University of Manchester
 """
 
 
